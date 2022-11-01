@@ -1,0 +1,29 @@
+<!--components/bottom-tab/bottom-tab.wxml-->
+<view class="bottom">
+    <view class="bottom-item">
+        <image class="item-images" src="../../images/定位.png" bindtap="makeFlag"></image>
+        <view class="item-name">打卡</view>
+    </view>
+    <view class="bottom-item">
+        <image class="item-images" src="../../images/摄影.png" bindtap="upVideo"></image>
+        <view class="item-name">传视频</view>
+    </view>
+    <view class="bottom-item">
+        <image class="item-images" src="../../images/照片图片.png" bindtap="upPhoto"></image>
+        <view class="item-name">传照片</view>
+    </view>
+    <view class="bottom-item">
+        <image class="item-images" src="../../images/编辑2.png" bindtap="writeComment"></image>
+        <view class="item-name">写评论</view>
+    </view>
+</view>
+<!--<bottom-comment isWriteComment="{{isWriteComment}}"></bottom-comment>-->
+
+<page-container show="{{isWriteComment}}" duration="800" z-index="1000" custom-style="background-color:white" bind:beforeleave="backIndex" position="top" overlay="{{true}}">
+    <van-nav-bar title="写评价" left-text="取消" bind:click-left="backIndex"></van-nav-bar>
+    <view class="header">写评价<image src="../../images/感叹号.png" style="width: 50rpx;height: 50rpx;"></image>
+
+    </view>
+    <button>发布</button>
+    <view class="bottom-comment">2222</view>
+</page-container>

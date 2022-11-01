@@ -1,0 +1,66 @@
+/* components/recommend/components/recommendP/recomendP.wxss */
+.num-text{
+    font-size:smaller;
+    color: #999999;
+    margin-left: 10rpx;
+    font-weight: 500;
+}
+.container-bottom{
+    background-color: white;
+    margin-top: 20rpx;
+    padding-top: 20rpx;
+}
+.header-bottom{
+    font-size: larger;
+    font-weight: bold;
+    margin: 0rpx 35rpx 0rpx 35rpx;
+}
+.box{
+    margin: 35rpx 35rpx 35rpx 35rpx;
+    border-bottom:solid #eeeeee  1rpx;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40rpx;
+}
+.left-image{
+    height: 170rpx;
+    width: 260rpx;
+    border-radius: 6%;
+}
+.content{
+    margin-left: 20rpx;
+}
+.item-name{
+    font-weight: bold;
+    margin-top: 10rpx;
+}
+.item-spend{
+    margin-top: 10rpx;
+    font-weight: bold;
+}
+.right{
+    position: relative;
+    top: 0rpx;
+    right: -45rpx;
+}
+.right-image{
+    height: 40rpx;
+    width: 40rpx;
+    margin-top: 1vw;
+}
+.text{
+    font-size: smaller;
+    color: #969696;
+    margin-left: 10rpx;
+    position: relative;
+    top: -9rpx;
+}
+.tips{
+    font-size: small;
+    background-color: #f8f8f8;
+    border-radius: 6%;
+    padding: 6rpx 10rpx 6rpx 10rpx;
+    margin-top: 10rpx;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}

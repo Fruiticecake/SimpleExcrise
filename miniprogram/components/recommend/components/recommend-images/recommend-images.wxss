@@ -1,0 +1,35 @@
+/* components/recommend/components/recommend-images/recommend-images.wxss */
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 20rpx 40rpx 0rpx 40rpx;
+}
+
+.recommend-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -31rpx;
+    color: white;
+    background-color: #585758a8;
+    font-size:24rpx;
+    width: 100%;
+}
+.recommend-images{
+    width: 220rpx;
+    height: 160rpx;
+    border-radius: 7%;
+    margin-right: 15rpx;
+}
+.container-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recommend-name{
+    margin-top: 10rpx;
+    font-weight: 600;
+    font-size: smaller;
+}

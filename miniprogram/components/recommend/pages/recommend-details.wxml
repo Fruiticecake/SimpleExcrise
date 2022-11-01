@@ -1,0 +1,24 @@
+<!--components/recommend/pages/recommend-details.wxml-->
+<van-nav-bar
+  left-arrow
+  bind:click-left="onClickLeft"
+  fixed="true"
+  z-index="1000"
+  placeholder="true"
+/>
+<recommend-tabs tabs="{{recommendTabs}}"></recommend-tabs>
+<view class="container">
+    <view class="header">
+        商家招牌菜<text class="num-text">({{wareRecommendNum}})</text>
+    </view>
+    <scroll-view scroll-x="true" class="scroll">
+        <block wx:for="{{signatureDish}}" wx:key="_id" >
+            <view class="scroll-item">
+                <image class="images" src="{{item.sSrc}}" mode="aspectFill"></image>
+                <text>{{item.sName}}</text>
+            </view>
+        </block>
+    </scroll-view>
+</view>
+
+<recommendP recommendFood="{{recommendFood}}" recommendFoodNum="{{recommendFoodNum}}"> </recommendP>

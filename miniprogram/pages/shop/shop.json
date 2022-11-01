@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "tabs":"../../components/tabs/tabs",
+    "comment":"../../components/comment/comment",
+    "cheap":"../../components/cheap/cheap",
+    "recommend":"../../components/recommend/recommend",
+    "perimeter":"../../components/perimeter/perimeter",
+    "bottom-tab":"../../components/bottom-tab/bottom-tab"
+  }
+
+}

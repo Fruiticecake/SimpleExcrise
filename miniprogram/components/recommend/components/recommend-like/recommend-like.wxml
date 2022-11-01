@@ -1,0 +1,8 @@
+<!--components/recommend/components/recommend-like/recommend-like.wxml-->
+<view class="container">
+    <view class="like-item" wx:for="{{recommendFood}}" wx:key="_id" wx:if="{{index<6}}">
+        <view class="item-name">{{item.recommendFoodName}}</view>
+        <image class="like-images" src="../../images/like-before.png"></image>
+        <text class="like-num">{{item.recommendNum}}</text>
+    </view>
+</view>

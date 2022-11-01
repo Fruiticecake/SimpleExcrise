@@ -1,0 +1,4 @@
+<!--components/bottom-comment/bottom-comment.wxml-->
+<page-container show="{{isWriteComment}}" duration="800" custom-style="z-index:1000;background-color:rgba(0,0,0,0)" bind:beforeleave="backIndex" position="bottom">
+    <view class="bottom-comment"></view>
+</page-container>

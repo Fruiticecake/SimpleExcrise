@@ -1,0 +1,6 @@
+/* components/bottom-comment/bottom-comment.wxss */
+.bottom-comment{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

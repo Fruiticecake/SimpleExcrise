@@ -1,0 +1,38 @@
+<van-nav-bar
+  left-arrow
+  bind:click-left="onClickLeft"
+  fixed="true"
+  z-index="1000"
+  placeholder="true"
+/>
+<!--店铺信息-->
+<view class="header">
+  <image src="{{wareSrc}}" class="header-image" mode="aspectFill"  show-menu-by-longpress="true"></image>
+  <view class="header-item" >
+    <view class="header-name">{{wareName}}
+      <view class="header-scores">评分组件 {{wareScore}}</view>
+    </view>
+    <view class="header-time">营业时间：{{wareTime}}</view>
+    <view class="header-location">{{wareLocation}}</view>
+  </view>
+</view>
+<!--优惠-->
+<tabs tabs="{{wareTabs}}"></tabs>
+<cheap cheapWare="{{cheapWare}}"></cheap>
+<!--菜品推荐-->
+<recommend  recommendFood="{{recommendFood}}" recommendFoodNum="{{recommendFoodNum}}"></recommend>
+<!--评价-->
+<comment comment="{{comment}}" wareAppraiseNum="{{wareAppraiseNum}}"></comment>
+
+<!--周边-->
+<perimeter perimeterList="{{perimeterList}}" perimeterTabs="{{perimeterTabs}}"></perimeter>
+
+<!--相似-->
+<view class="container">
+  <view class="header-like">相似餐厅<view>></view> </view>
+</view>
+
+<!--底部导航栏-->
+<bottom-tab bottomTabs="{{bottomTabs}}"></bottom-tab>
+
+

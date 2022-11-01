@@ -1,0 +1,37 @@
+<!--components/perimeter/perimeter.wxml-->
+
+<view class="container">
+    <navigator hover-class="none" url="../../components/perimeter/pages/perimeterSearch">
+        <view class="header">搜索附近<view>></view>
+        </view>
+    </navigator>
+    <view class="item">
+        <view class="title" wx:for="{{perimeterTabs}}" wx:key="index">
+            <view class="title-item {{item.isActive?'title-item-active':'' }}" bindtap="handleItemTabs" data-index="{{index}}">{{item.pTabs}}</view>
+        </view>
+        <view class="content">
+            <view class="content-item">
+                <image class="content-images" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.-f9qo_pUubhyLe7KBUsAqwHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="aspectFill"></image>
+                <view class="content-name">米其林西餐厅111</view>
+                <view class="temp">⭐⭐⭐⭐4￥20.42</view>
+                <view class="distance">距商户198m</view>
+            </view>
+            <view class="content-item">
+                <image class="content-images" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.-f9qo_pUubhyLe7KBUsAqwHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="aspectFill"></image>
+                <view class="content-name">米其林西餐厅111</view>
+                <view class="temp">⭐⭐⭐⭐4￥20.42</view>
+                <view class="distance">距商户19822m</view>
+            </view>
+            <view class="content-item">
+                <image class="content-images" src="https://tse2-mm.cn.bing.net/th/id/OIP-C.-f9qo_pUubhyLe7KBUsAqwHaE7?w=296&h=197&c=7&r=0&o=5&dpr=1.25&pid=1.7" mode="aspectFill"></image>
+                <view class="content-name">米其林</view>
+                <view class="temp">⭐⭐⭐⭐4￥10.42</view>
+                <view class="distance">距商户18m</view>
+            </view>
+        </view>
+    </view>
+    <navigator hover-class="none" url="../../components/perimeter/pages/perimeterSearch">
+        <view class="search-ware">查看附近全部商户<view>></view>
+        </view>
+    </navigator>
+</view>

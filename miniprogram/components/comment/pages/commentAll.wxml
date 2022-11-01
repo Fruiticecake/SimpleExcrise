@@ -1,0 +1,24 @@
+<!--components/comment/pages/commentAll.wxml-->
+<van-nav-bar
+  left-arrow
+  bind:click-left="onClickLeft"
+  fixed="true"
+  z-index="1000"
+  placeholder="true"
+/>
+<comment-tabs tabs="{{commentTabs}}"></comment-tabs>
+<view class="container">
+    <view class="comment" wx:for="{{comment}}" wx:key="_id">
+        <view class="comment-left">
+            <image src="{{item.src}}"></image>
+        </view>
+        <view class="comment-item">
+            <view class="comment-name">{{item.name}}</view>
+            <view class="comment-time">发布于 {{item.time}}</view>
+            <view class="comment-scores">打分：{{item.scores}}</view>
+            <view class="comment-content">{{item.content}}</view>
+            <!--图片上传展示-->
+        </view>
+    </view>
+   
+</view>

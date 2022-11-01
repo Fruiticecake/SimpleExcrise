@@ -1,0 +1,18 @@
+<!--components/recommend/components/recommendP/recomendP.wxml-->
+<view class="container-bottom">
+    <view class="header-bottom">
+        网友推荐菜<text class="num-text">({{recommendFoodNum}})</text>
+    </view>
+    <view class="box" wx:for="{{recommendFood}}" wx:key="_id">    
+        <image class="left-image" src="{{item.recommendSrc}}"></image>
+        <view class="content">
+            <view class="item-name">{{item.recommendFoodName}}</view>
+            <view class="item-spend">￥{{item.spent}}</view>
+            <view class="tips">{{recommendTips}}</view>
+        </view>
+        <button bindtap="handleItemLike" size="mini" class="right" style="border: 5rpx solid #eeeeee;border-radius: 60rpx;width: 150rpx;height: 60rpx;box-shadow: 2rpx 0rpx 2rpx #eeeeee;">
+            <image class="right-image" src="../../images/like-before.png"></image>
+            <text class="text" >{{item.recommendNum}}</text>
+        </button>
+    </view>
+</view>

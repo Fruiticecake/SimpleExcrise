@@ -1,0 +1,11 @@
+<!--components/recommend/recommend.wxml-->
+<navigator hover-class="none" recommendFood="{{recommendFood}}" url="../../components/recommend/pages/recommend-details" >
+    <view class="recommend-show">
+        <view class="recommend-details">推荐菜<text>></text></view>
+        <view>
+            <text class="recommend-type">网友推荐菜{{'('+recommendFoodNum+')'}}</text>
+            <recommend-images recommendFood="{{recommendFood}}"></recommend-images>
+            <recommend-like recommendFood="{{recommendFood}}"></recommend-like>
+        </view>   
+    </view>
+</navigator>

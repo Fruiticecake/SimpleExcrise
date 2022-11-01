@@ -1,0 +1,25 @@
+/* components/recommend/recommend.wxss */
+.recommend-show{
+    background-color: white;
+    margin-top: 20rpx;
+    display: flex;
+    flex-direction: column;
+}
+.recommend-images{
+    display: flex;
+    flex-direction: row;
+}
+.recommend-type{
+    font-weight: bold;
+    margin: 20rpx 40rpx 0rpx 40rpx;
+}
+.recommend-details{
+    background-color: white;
+    padding-top: 20rpx;
+    margin:0rpx 40rpx 20rpx 40rpx;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

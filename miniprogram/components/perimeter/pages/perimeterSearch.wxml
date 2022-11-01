@@ -1,0 +1,9 @@
+<!--components/perimeter/pages/perimeterSearch.wxml-->
+<van-nav-bar
+  left-arrow
+  bind:click-left="onClickLeft"
+  fixed="true"
+  z-index="1000"
+  placeholder="true"
+/>
+<text>components/perimeter/pages/perimeterSearch.wxml</text>

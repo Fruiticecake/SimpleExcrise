@@ -1,0 +1,47 @@
+/* components/tabs.wxss */
+.tabs {
+    color: #b2b2b2;
+    position: sticky;
+    top: 165rpx;
+    z-index: 999;
+    box-shadow: 0 -1px #fff;
+}
+
+.tabs_title {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 120rpx 0px 120rpx;
+    background-color: white;
+}
+
+.title_item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rpx;
+    font-size: large;
+    font-weight: bold;
+}
+
+.active {
+    color: black;
+    transition: transform .18s ease;
+    transform: scale(1.03);
+    position: relative;
+}
+
+.active::after {
+    content: ' ';
+    display: block;
+    background-color: rgb(241, 101, 36);
+    width: 55%;
+    position: absolute;
+    top: 66%;
+    height: 10rpx;
+}
+
+.text {
+    position: relative;
+    z-index: 1;
+}

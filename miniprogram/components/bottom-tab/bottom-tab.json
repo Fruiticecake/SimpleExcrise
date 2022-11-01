@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "bottom-comment":"../bottom-comment/bottom-comment"
+    }
+}

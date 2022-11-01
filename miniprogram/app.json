@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/shopIndex/shopIndex",
+        "pages/shop/shop",   
+        "components/recommend/pages/recommend-details",
+        "components/perimeter/pages/perimeterSearch",
+        "components/comment/pages/commentAll"
+    ],
+    "window": {
+        "backgroundColor": "#ffffff",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationStyle":"custom",
+        "navigationBarTextStyle": "black"
+    },
+    "usingComponents": {
+        "custom":"./components/custom-header/custom-header",
+        "van-nav-bar": "./miniprogram_npm/@vant/weapp/nav-bar/index"
+    },
+    
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

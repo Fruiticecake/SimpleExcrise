@@ -1,0 +1,20 @@
+<!--components/cheap/cheap.wxml-->
+<view class="cheap">
+  <view class="cheap-item" wx:for="{{cheapWare}}" wx:key="_id">
+    <view class="cheap-right">
+      <image alt="" src="{{item.cheapWareSrc}}" style="width:70px;height:70px;border-radius:10%" mode="aspectFill"></image>
+    </view>
+    <view class="cheap-content">
+      <view class="cheap-name">{{item.cheapWareName}}</view>
+      <view class="cheap-time">{{item.cheapWareTime}}</view>
+      <view class="cheap-price">
+        <view class="cheap-price-after">￥{{item.cheapWarePriceAfter}}</view>
+        <view class="cheap-price-before">￥{{item.cheapWarePriceBefore}}</view>
+      </view>   
+    </view>
+    <view class="cheap-right">
+      <button bindtap="handleBuy" size="mini" style="border-radius:30rpx;background-color:#ff6533;color:white;font-size:28rpx;font-weight:normal;">购买</button>
+      <view class="cheap-num">销量：{{item.cheapWareSales}}</view>
+    </view>
+  </view>
+</view>

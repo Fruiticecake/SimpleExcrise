@@ -1,0 +1,87 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "id": -1,
+                    "name": "db guide",
+                    "pathName": "pages/databaseGuide/databaseGuide",
+                    "query": ""
+                },
+                {
+                    "name": "pages/getOpenId/index",
+                    "pathName": "pages/getOpenId/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/deployService/index",
+                    "pathName": "pages/deployService/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/selectRecord/index",
+                    "pathName": "pages/selectRecord/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/sumRecordResult/index",
+                    "pathName": "pages/sumRecordResult/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecord/index",
+                    "pathName": "pages/updateRecord/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecordResult/index",
+                    "pathName": "pages/updateRecordResult/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/updateRecordSuccess/index",
+                    "pathName": "pages/updateRecordSuccess/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/shopIndex/shopIndex",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "components/recommend/pages/recommend-details",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "components/bottom-tab",
+                    "query": "id=bf4a0bf261efc11909997de81ef98594",
+                    "scene": null,
+                    "launchMode": "default"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+/* components/bottom-tab/bottom-tab.wxss */
+.bottom{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-top: 1rpx solid #e6e6e6;
+    position: fixed;
+    bottom: 0rpx;
+    margin-bottom: 0rpx;
+    width:100%;
+}
+.bottom-item{
+    margin: 14rpx 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.item-images{
+    width: 50rpx;
+    height: 50rpx;
+}
+.item-name{
+    font-size: x-small;
+    color: #696969;
+}
+.bottom-comment{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.header{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top: 0;
+}

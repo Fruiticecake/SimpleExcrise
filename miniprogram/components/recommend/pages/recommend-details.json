@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "recommend-tabs":"../../tabs/tabs",
+    "recommendP":"../components/recommendP/recomendP"
+  }
+}

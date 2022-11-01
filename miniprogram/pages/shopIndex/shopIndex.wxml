@@ -1,0 +1,26 @@
+<!--pages/shopIndex/shopIndex.wxml-->
+<van-nav-bar
+  left-arrow
+  bind:click-left="onClickLeft"
+  fixed="true"
+  z-index="1000"
+  placeholder="true"
+/>
+<view class="container">
+    <view  bindtap="handleItem" wx:for="{{ware}}" wx:key="_id">
+        <navigator class="container-item" url="../shop/shop?id={{item._id}}">
+            <view>
+                <image class="left-image" src="{{item.wareSrc}}" mode="aspectFill"></image>
+            </view>
+            <view class="among">
+                <text class="name">{{item.wareName}}</text>
+                <text class="score-appraise">评分组件 4.6 .....{{item.wareAppraiseNum}}条 ￥{{item.warePrice}}/人</text>
+                <text class="location">{{item.location}}</text>
+                <text class="say">点评清单</text>
+            </view>
+            <view class="right">
+                865m
+            </view>
+        </navigator>
+    </view>
+</view>

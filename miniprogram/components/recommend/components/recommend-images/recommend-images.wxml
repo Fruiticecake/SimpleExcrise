@@ -1,0 +1,11 @@
+<!--components/recommend/components/recommend-images/recommend-images.wxml-->
+
+<view class="container">
+    <view class="container-item" wx:for="{{recommendFood}}" wx:key="_id">
+        <image class="recommend-images" src="{{item.recommendSrc}}">
+            <text class="recommend-num">{{item.recommendNum}}人推荐</text>         
+        </image>
+        <text class="recommend-name">{{item.recommendFoodName}}</text>
+    </view> 
+</view>
+

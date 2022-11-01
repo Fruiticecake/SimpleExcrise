@@ -1,0 +1,29 @@
+/* components/recommend/components/recommend-like/recommend-like.wxss */
+.container{
+    display: flex;
+    flex-direction: row;
+    word-wrap:break-word;
+    word-break:normal;
+}
+.like-item{
+    display: flex;
+    flex-direction: row;
+    height: 30rpx;
+    margin: 40rpx 40rpx 20rpx 40rpx;
+}
+.item-name{
+    font-weight: bold;
+    font-size: small;
+    height: 100%;
+    line-height: 100%;
+}
+.like-images{
+    padding-left: 10rpx;
+    width: 30rpx;
+    height: 100%;
+}
+.like-num{
+    margin-left: 4rpx;
+    color: #b9b9b9;
+    line-height: 100%;
+}

@@ -1,0 +1,53 @@
+
+
+.cheap{
+    background-color: white;
+    padding: 20px 10px 0px 10px;
+  }
+  .cheap-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  .cheap-right{
+    margin-left: 10px;
+  }
+  .cheap-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+  }
+  .cheap-name{
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    width: 200px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .cheap-time{
+    font-size: small;
+    color: grey;
+    padding-top: 5px;
+  }
+  .cheap-price{
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+  }
+  .cheap-price-after{
+    color: #f86337;
+    font-weight: bolder;
+    font-size: large;
+  }
+  .cheap-price-before{
+    font-size:15px;
+    color: grey;
+    padding-left: 10px;
+    text-decoration:line-through  grey ;
+  }
+  .cheap-num{
+    font-size: small;
+    color: grey;
+  }

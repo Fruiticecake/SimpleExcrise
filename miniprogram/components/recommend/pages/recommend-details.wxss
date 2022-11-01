@@ -1,0 +1,49 @@
+
+.container {
+    background-color: white;
+    margin-top: 10rpx;
+    display: block;
+}
+
+.header {
+    font-size: larger;
+    font-weight: bold;
+    margin: 35rpx 35rpx 0rpx 35rpx;
+}
+
+.num-text {
+    font-size: smaller;
+    color: #999999;
+    margin-left: 10rpx;
+    font-weight: 500;
+}
+
+.images {
+    width: 280rpx;
+    height: 190rpx;
+    display: inline-block;
+    border-radius: 6%;
+    padding-right: 15rpx;
+}
+
+.scroll {
+    white-space: nowrap;
+    margin: 35rpx 35rpx 35rpx 35rpx;
+}
+
+.scroll-item {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 20rpx;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}

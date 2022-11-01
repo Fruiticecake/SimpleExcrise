@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="comment-title">所有评价{{'('+wareAppraiseNum+')'}}</view>
+    <view class="comment" wx:for="{{comment}}" wx:key="_id" wx:if="{{index<3}}">
+        <view class="comment-left">
+            <image src="{{item.src}}"></image>
+        </view>
+        <view class="comment-item">
+            <view class="comment-name">{{item.name}}</view>
+            <view class="comment-time">发布于 {{item.time}}</view>
+            <view class="comment-scores">打分：{{item.scores}}</view>
+            <view class="comment-content">{{item.content}}</view>
+            <!--图片上传展示-->
+        </view>
+    </view>
+    <navigator hover-class="none" class="clike" url="../../components/comment/pages/commentAll">查看所有评价<view>></view></navigator>
+</view>

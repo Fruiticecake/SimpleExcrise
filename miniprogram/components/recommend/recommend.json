@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "recommend-images":"./components/recommend-images/recommend-images",
+        "recommend-like":"./components/recommend-like/recommend-like"
+    }
+}
